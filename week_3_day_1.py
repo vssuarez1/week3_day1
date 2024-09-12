@@ -277,13 +277,18 @@ print("The ceil of your first number is",ceil(num3))
 ##########################################################################################
 # # mad libs game
 # print("Roses are {color}")
-# print("{plural noun} are blue")
+# print("{plural_noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
 
-print("Roses are red")
-print("violets are blue")
-print("I love")
+
+color =input("enter a color:")
+print("Roses are " + color)
+plural_noun =input("enter a plural noun:")
+print(plural_noun + " are blue")
+celebrity = input("enter a celebrity:")
+print(" love " + celebrity)
+
 
 
 
