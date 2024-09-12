@@ -261,6 +261,14 @@ print(round(num2))
 
 
 
+num3 = int(input("enter a number:"))
+num4 = int(input("enter another number:"))
+print("The number when subtracted is",(num4 - num3))
+print("The number when divided is",(num3/num4))
+print("The min is",min(num3,num4))
+print("The absolute value of your first number is",abs(num3))
+print("The floor of your second number is",floor(num4))
+print("The ceil of your first number is",ceil(num3))
 
 
 
@@ -273,7 +281,9 @@ print(round(num2))
 # print("I love {celebrity}")
 # # On to codehs.com
 
-
+print("Roses are red")
+print("violets are blue")
+print("I love")
 
 
 
